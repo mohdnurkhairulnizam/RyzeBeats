@@ -41,6 +41,11 @@
             android:name=".MediaActionReceiver"
             android:exported="false" />
         <service
+            android:name=".RyzeBeatsPlaybackService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+        <service
             android:name=".PlaybackKeepAliveService"
             android:enabled="true"
             android:exported="false"
